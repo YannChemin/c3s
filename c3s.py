@@ -40,4 +40,7 @@ def dicorr(vec1, vec2):
     if (corr_coef <= 0):
         return(0)
 
-
+da = daed(vec1,vec2)
+di = dicorr(vec1,vec2)
+sv = ssv(da,di)
+print(sv)
